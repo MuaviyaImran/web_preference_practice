@@ -10,8 +10,8 @@
   },
   "config": {
     "server-port": 3000,
-    "server-delay": 50,
-    "server-compress": true
+    "server-delay": 200,
+    "server-compress": false
   },
   "repository": {
     "type": "git",
