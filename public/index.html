@@ -27,19 +27,19 @@
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="/assets/images/favicon/apple-touch-icon.min.png"
+      href="/assets/images/favicon/apple-touch-icon.min.min.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="/assets/images/favicon/favicon-32x32.min.png"
+      href="/assets/images/favicon/favicon-32x32.min.min.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="/assets/images/favicon/favicon-16x16.min.png"
+      href="/assets/images/favicon/favicon-16x16.min.min.png"
     />
     <link rel="manifest" href="/assets/images/favicon/site.webmanifest.json" />
 
@@ -53,7 +53,7 @@
         <div class="site-logo">
           <a class="site-title" href="/">
             <img
-              src="/assets/images/request_metrics_logo.png"
+              src="/assets/images/request_metrics_logo.min.png"
               alt="Request Metrics"
             />
           </a>
@@ -92,7 +92,7 @@
         <div class="background-wrap">
           <img
             class="background"
-            src="/assets/images/illustrations/flying_sloth_2.png"
+            src="/assets/images/illustrations/flying_sloth_2.min.png"
             alt="Sloth riding a rocket"
           />
         </div>
@@ -151,28 +151,28 @@
             <ul>
               <li class="do flex">
                 <img
-                  src="/assets/images/checkmark-circle.svg"
+                  src="/assets/images/checkmark-circle.min.svg"
                   alt="checkmark"
                 />
                 <span>User Session Analytics</span>
               </li>
               <li class="do flex">
                 <img
-                  src="/assets/images/checkmark-circle.svg"
+                  src="/assets/images/checkmark-circle.min.svg"
                   alt="checkmark"
                 />
                 <span>Web Performance</span>
               </li>
               <li class="do flex">
                 <img
-                  src="/assets/images/checkmark-circle.svg"
+                  src="/assets/images/checkmark-circle.min.svg"
                   alt="checkmark"
                 />
                 <span>API Monitoring</span>
               </li>
               <li class="do flex">
                 <img
-                  src="/assets/images/checkmark-circle.svg"
+                  src="/assets/images/checkmark-circle.min.svg"
                   alt="checkmark"
                 />
                 <span>Error Reporting</span>
@@ -184,19 +184,31 @@
             <h2>Their Features</h2>
             <ul>
               <li class="dont flex">
-                <img src="/assets/images/xmark-circle.svg" alt="No checkmark" />
+                <img
+                  src="/assets/images/xmark-circle.min.svg"
+                  alt="No checkmark"
+                />
                 <span>Fake "Synthetic" Performance</span>
               </li>
               <li class="dont flex">
-                <img src="/assets/images/xmark-circle.svg" alt="No checkmark" />
+                <img
+                  src="/assets/images/xmark-circle.min.svg"
+                  alt="No checkmark"
+                />
                 <span>Complex Query-Based Reporting</span>
               </li>
               <li class="dont flex">
-                <img src="/assets/images/xmark-circle.svg" alt="No checkmark" />
+                <img
+                  src="/assets/images/xmark-circle.min.svg"
+                  alt="No checkmark"
+                />
                 <span>Information Overload</span>
               </li>
               <li class="dont flex">
-                <img src="/assets/images/xmark-circle.svg" alt="No checkmark" />
+                <img
+                  src="/assets/images/xmark-circle.min.svg"
+                  alt="No checkmark"
+                />
                 <span>Unknowable Metered Pricing</span>
               </li>
             </ul>
@@ -209,14 +221,33 @@
           <div class="callout flex">
             <div class="picture">
               <a
-                href="/assets/images/callouts/callout-distribution-2400.png"
+                href="/assets/images/callouts/callout-distribution-2400.min.png"
                 target="_blank"
               >
-                <img
-                  src=""
-                  data-src="/assets/images/callouts/callout-distribution-2400.png"
-                  alt="Chart page views and the distribution user load time"
-                />
+                <picture>
+                  <source
+                    media="(max-width: 600px)"
+                    srcset="
+                      /assets/images/callouts/callout-distribution-600.min.png
+                    "
+                  />
+                  <source
+                    media="(max-width: 900px)"
+                    srcset="
+                      /assets/images/callouts/callout-distribution-900.min.png
+                    "
+                  />
+                  <source
+                    media="(max-width: 1200px)"
+                    srcset="
+                      /assets/images/callouts/callout-distribution-1200.min.png
+                    "
+                  />
+                  <img
+                    data-src="/assets/images/callouts/callout-distribution-2400.min.png"
+                    style="width: auto"
+                  />
+                </picture>
               </a>
             </div>
             <div class="blurb">
@@ -233,12 +264,12 @@
           <div class="callout left flex">
             <div class="picture">
               <a
-                href="/assets/images/callouts/callout-breakdown-2400.png"
+                href="/assets/images/callouts/callout-breakdown-2400.min.png"
                 target="_blank"
               >
                 <img
                   src=""
-                  data-src="/assets/images/callouts/callout-breakdown-2400.png"
+                  data-src="/assets/images/callouts/callout-breakdown-2400.min.png"
                   alt="Chart page views and the distribution user load time"
                 />
               </a>
@@ -256,12 +287,12 @@
           <div class="callout flex">
             <div class="picture">
               <a
-                href="/assets/images/callouts/callout-webvital-2400.png"
+                href="/assets/images/callouts/callout-webvital-2400.min.png"
                 target="_blank"
               >
                 <img
                   src=""
-                  data-src="/assets/images/callouts/callout-webvital-2400.png"
+                  data-src="/assets/images/callouts/callout-webvital-2400.min.png"
                   alt="Chart page views and the distribution user load time"
                 />
               </a>
@@ -300,7 +331,7 @@
             <div class="illustration">
               <img
                 src=""
-                data-src="/assets/images/illustrations/sloth_concerned.svg"
+                data-src="/assets/images/illustrations/sloth_concerned.min.svg"
                 alt="Sloth concerned."
               />
             </div>
@@ -315,7 +346,7 @@
               <h2 class="text-center">Your Website, Faster</h2>
               <img
                 src=""
-                data-src="/assets/images/illustrations/sloth_building_rocket.svg"
+                data-src="/assets/images/illustrations/sloth_building_rocket.min.svg"
                 alt="Sloth building a rocket"
               />
             </div>
@@ -402,7 +433,7 @@
           <div class="footer-logo">
             <a href="/">
               <img
-                src="/assets/images/request_metrics_logo_dark.svg"
+                src="/assets/images/request_metrics_logo_dark.min.svg"
                 alt="Request Metrics"
               />
             </a>
