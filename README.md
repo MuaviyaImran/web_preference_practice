@@ -14,6 +14,12 @@ npm install
 npm start
 ```
 
+## To Minify Images use
+
+```
+npm run imagemin
+```
+
 Open a browser at [http://localhost:3000/](http://localhost:3000/) to view the website.
 
 ## Related Resources:
